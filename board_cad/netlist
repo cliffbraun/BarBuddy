@@ -1,0 +1,153 @@
+Netlist
+
+Exported from barbuddy.sch at 11/2/16 1:42 PM
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Net          Part     Pad      Pin        Sheet
+
+BATT_SENSE   JP2      14       14         1
+             R5       1        1          1
+             R6       2        2          1
+
+BNO_INT      BNO055   P$14     INT        1
+
+BNO_RST      BNO055   P$11     RESET      1
+             JP1      8        8          1
+             R12      2        2          1
+
+CHG_SENSE    JP2      13       13         1
+             R7       1        1          1
+             R8       2        2          1
+
+GND          BNO055   P$10     PIN10      1
+             BNO055   P$15     PIN15      1
+             BNO055   P$16     PIN16      1
+             BNO055   P$18     COM2       1
+             BNO055   P$2      GND        1
+             BNO055   P$25     GNDIO      1
+             BNO055   P$5      PS1        1
+             BNO055   P$6      PS0        1
+             C1       2        2          1
+             C10      1        1          1
+             C11      1        1          1
+             C12      2        2          1
+             C13      2        2          1
+             C2       2        2          1
+             C3       2        2          1
+             C4       2        2          1
+             C5       2        2          1
+             C7       2        2          1
+             C8       1        1          1
+             C9       2        2          1
+             CN3      1        1          1
+             IC1      3        GND        1
+             IC1      EXP      GND        1
+             IC1      M        GND        1
+             IC2      2        GND        1
+             IC2      4        GND        * none *
+             JP2      2        2          1
+             JP3      2        2          1
+             JP4      2        2          1
+             LED2     C        C          1
+             R3       2        2          1
+             R6       1        1          1
+             R8       1        1          1
+             U1       2        VSS        1
+             U2       2        GND        1
+             U3       1        GND        1
+             X1       BASE@1   GND        1
+             X1       BASE@2   GND        1
+             X1       GND      GND        1
+             X1       SPRT@1   GND        1
+             X1       SPRT@2   GND        1
+             X1       SPRT@3   GND        1
+             X1       SPRT@4   GND        1
+
+I2C_ADDR_SEL BNO055   P$17     COM3       1
+             R13      1        1          1
+
+I2C_SCL      BNO055   P$19     COM1       1
+             JP1      11       11         1
+             R10      2        2          1
+             U2       6        SCL        1
+
+I2C_SDA      BNO055   P$20     COM0       1
+             JP1      10       10         1
+             R9       2        2          1
+             U2       1        SDA        1
+
+N$1          LED1     C        C          1
+             R1       1        1          1
+
+N$2          R1       2        2          1
+             R2       2        2          1
+             U1       1        STAT       1
+
+N$3          BNO055   P$4      BOOT       1
+             R11      2        2          1
+
+N$4          BNO055   P$9      CAP        1
+             C9       1        1          1
+
+N$5          R3       1        1          1
+             U1       5        PROG       1
+
+N$6          LED2     A        A          1
+             R2       1        1          1
+
+N$7          BNO055   P$27     XIN32      1
+             C11      2        2          1
+             XTAL1    1        1          1
+
+N$8          IC1      9        !RST       1
+             R4       1        1          1
+
+N$9          BNO055   P$26     XOUT32     1
+             C10      2        2          1
+             XTAL1    2        2          1
+
+UART0_RX     IC1      26       TXD        1
+             JP1      13       13         1
+
+UART0_TX     JP1      12       12         1
+
+USB_N        U3       2        A          1
+             X1       D-       D-         1
+
+USB_P        U3       3        B          1
+             X1       D+       D+         1
+
+VBAT1        C3       1        1          1
+             CN3      2        2          1
+             IC2      1        IN         1
+             JP2      1        1          1
+             JP4      1        1          1
+             R5       2        2          1
+             U1       3        VBAT       1
+
+VDD_3V3      BNO055   P$3      VDD        1
+             C1       1        1          1
+             C12      1        1          1
+             C13      1        1          1
+             C7       1        1          1
+             C8       2        2          1
+             IC2      3        OUT        1
+             R10      1        1          1
+             R11      1        1          1
+             R12      1        1          1
+             R13      2        2          1
+             R9       1        1          1
+             U2       5        VDD        1
+
+VDD_CP2102   C6       2        2          1
+             IC1      6        VDD        1
+             R4       2        2          1
+
+VDD_USB      C2       1        1          1
+             JP3      1        1          1
+             LED1     A        A          1
+             U1       4        VDD        1
+             U3       4        C          1
+             X1       VBUS     VBUS       1
+
