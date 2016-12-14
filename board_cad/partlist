@@ -1,0 +1,49 @@
+Partlist
+
+Exported from barbuddy.brd at 11/29/16 5:44 PM
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value             Package                Library               Position (inch)       Orientation
+
+BNO055   BNO055            LGA-28                 BNO055                (0.3 0.38125)         MR0
+C1       0.1uF             C0402                  rcl                   (0.25 0.775)          MR180
+C2       10µF              C0402                  rcl                   (0.65 1.0375)         R90
+C3       10µF              C0402                  rcl                   (0.525 0.39375)       R0
+C4       1µF               C0402                  rcl                   (0.41875 1.03125)     R90
+C5       .1µF              C0402                  rcl                   (0.3625 1.03125)      R90
+C6       .1µF              C0402                  rcl                   (0.23125 1.0625)      R90
+C7       3.3uf             C0402                  rcl                   (0.8 0.36875)         R180
+C8       0.1uF             C0402                  rcl                   (0.45 0.425)          MR270
+C9       0.1uF             C0402                  rcl                   (0.33125 0.225)       MR270
+C10      22pf              C0402                  rcl                   (0.29375 0.65)        MR270
+C11      22pf              C0402                  rcl                   (0.36875 0.65)        MR270
+C12      6.8nf             C0402                  rcl                   (0.525 0.575)         MR180
+C13      120nf             C0402                  rcl                   (0.525 0.5)           MR180
+CN3      JSTPH             JSTPH2                 microbuilder          (0.525 0.125)         R180
+IC1      CP2102            MLP28                  silabs                (0.275 0.85)          R180
+IC2                        SOT223                 linear-technology     (0.7375 0.5875)       R0
+JP1                        1X14                   pinhead               (0.075 0.7)           R90
+JP2                        1X14                   pinhead               (0.975 0.7)           R270
+LED1     RED               CHIPLED_0805_NOOUTLINE microbuilder          (0.225 1.3625)        R90
+LED2     GREEN             CHIPLED_0805_NOOUTLINE microbuilder          (0.825 1.3625)        R90
+R1       470               R0402                  rcl                   (0.225 1.30625)       R0
+R2       470               R0402                  rcl                   (0.825 1.30625)       R180
+R3       5K\               R0402                  rcl                   (0.7375 0.85625)      MR90
+R4       4.7k              R0402                  rcl                   (0.29375 1.0625)      R90
+R5       33k               R0402                  rcl                   (0.84375 0.0625)      R90
+R6       100k              R0402                  rcl                   (0.7625 0.0625)       R270
+R7       33k               R0402                  rcl                   (0.75625 0.1875)      MR90
+R8       100k              R0402                  rcl                   (0.84375 0.1875)      MR270
+R9       10k               R0402                  rcl                   (0.26875 1.0375)      MR0
+R10      10k               R0402                  rcl                   (0.26875 1.09375)     MR0
+R11      10k               R0402                  rcl                   (0.525 0.3125)        MR0
+R12      10k               R0402                  rcl                   (0.31875 0.38125)     R270
+R13      10k               R0402                  rcl                   (0.2375 0.36875)      R0
+U$14     10118192-MICROUSB MICROUSB-SMT           FCI-10118192-microusb (0.525 1.35)          R180
+U1       MCP73831T-2ACI/OT SOT23-5                microbuilder          (0.73125 0.88125)     R180
+U2       Si7021-A20        DFN6_3X3_SI            microbuilder          (0.2625 0.89375)      MR270
+U3       SP0503BAHTG       SOT143                 littlefuse            (0.55 1.04375)        R270
+XTAL1    10k               0805-NO                microbuilder          (0.33125 0.55)        MR0
